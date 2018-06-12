@@ -7,7 +7,7 @@ public class TcpClient {
 		
 		try {
 			
-			//creating the socket
+			//connect with server socket
 			Socket socClient = new Socket("localhost", 5001);
 			
 			//get data from server

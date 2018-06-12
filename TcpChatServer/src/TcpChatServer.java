@@ -12,7 +12,7 @@ public class TcpChatServer {
 			BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
 			
 			// sending to client (pwrite object)
-			OutputStream ostream = sock.getOutputStream();
+			OutputStream ostream = sock.getOutputStream();// crearing stream to communicate
 			PrintWriter pwrite = new PrintWriter(ostream, true);
 			
 			// receiving from server ( receiveRead object)
